@@ -1,0 +1,29 @@
+[2024-10-19T15:00:48.025+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-19T15:00:48.301+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tecnica_postgres.Insertar_Data manual__2024-10-19T14:47:54.322361+00:00 [queued]>
+[2024-10-19T15:00:48.323+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tecnica_postgres.Insertar_Data manual__2024-10-19T14:47:54.322361+00:00 [queued]>
+[2024-10-19T15:00:48.325+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-19T15:00:48.411+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresFileOperator): Insertar_Data> on 2024-10-19 14:47:54.322361+00:00
+[2024-10-19T15:00:48.580+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=68) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-19T15:00:48.725+0000] {standard_task_runner.py:72} INFO - Started process 78 to run task
+[2024-10-19T15:00:48.709+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'tecnica_postgres', 'Insertar_Data', 'manual__2024-10-19T14:47:54.322361+00:00', '--job-id', '191', '--raw', '--subdir', 'DAGS_FOLDER/tecnica_postgres.py', '--cfg-path', '/tmp/tmp388bv30w']
+[2024-10-19T15:00:48.730+0000] {standard_task_runner.py:105} INFO - Job 191: Subtask Insertar_Data
+[2024-10-19T15:00:48.897+0000] {task_command.py:467} INFO - Running <TaskInstance: tecnica_postgres.Insertar_Data manual__2024-10-19T14:47:54.322361+00:00 [running]> on host 953088fb6bc9
+[2024-10-19T15:00:50.778+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tecnica_postgres' AIRFLOW_CTX_TASK_ID='Insertar_Data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-19T14:47:54.322361+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-19T14:47:54.322361+00:00'
+[2024-10-19T15:00:50.781+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-19T15:00:50.782+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-19T15:00:50.783+0000] {logging_mixin.py:190} INFO - Current task name:Insertar_Data state:running start_date:2024-10-19 15:00:48.302847+00:00
+[2024-10-19T15:00:50.783+0000] {logging_mixin.py:190} INFO - Dag name:tecnica_postgres and current dag run status:running
+[2024-10-19T15:00:50.784+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-19T15:00:50.785+0000] {postgres.py:191} INFO - Running copy expert: COPY productos_mercadolibre FROM STDIN, filename: /opt/***/dags/tmp/file.tsv
+[2024-10-19T15:00:50.803+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-10-19T15:00:50.916+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-19T15:00:50.918+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tecnica_postgres, task_id=Insertar_Data, run_id=manual__2024-10-19T14:47:54.322361+00:00, execution_date=20241019T144754, start_date=20241019T150048, end_date=20241019T150050
+[2024-10-19T15:00:50.939+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-19T15:00:50.940+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-19T15:00:50.941+0000] {logging_mixin.py:190} INFO - Dag name:tecnica_postgres queued_at:2024-10-19 14:48:56.759187+00:00
+[2024-10-19T15:00:50.941+0000] {logging_mixin.py:190} INFO - Task hostname:953088fb6bc9 operator:PostgresFileOperator
+[2024-10-19T15:00:50.961+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-19T15:00:50.997+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-19T15:00:51.000+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
