@@ -2565,3 +2565,63 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-10-19T16:04:53.426+0000] {logging_mixin.py:190} INFO - [2024-10-19T16:04:53.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
 [2024-10-19T16:04:53.440+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
 [2024-10-19T16:04:53.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.033 seconds
+[2024-10-19T18:27:59.310+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:27:59.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:27:59.344+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:27:59.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:27:59.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:27:59.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.427 seconds
+[2024-10-19T18:28:30.601+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:28:30.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:28:30.605+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:28:30.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:28:30.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:28:30.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.032 seconds
+[2024-10-19T18:29:00.906+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:29:00.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:29:00.916+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:29:00.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:29:00.934+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:29:00.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.098 seconds
+[2024-10-19T18:29:32.462+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:29:32.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:29:32.798+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:29:32.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:29:33.191+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:29:33.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.958 seconds
+[2024-10-19T18:30:05.116+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:30:05.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:30:05.120+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:30:05.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:30:05.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:30:05.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.044 seconds
+[2024-10-19T18:30:35.452+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:30:35.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:30:35.459+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:30:35.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:30:35.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:30:35.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.065 seconds
+[2024-10-19T18:31:06.680+0000] {processor.py:186} INFO - Started process (PID=455) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:31:06.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:31:06.692+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:31:06.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:31:06.742+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:31:06.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.109 seconds
+[2024-10-19T18:31:37.693+0000] {processor.py:186} INFO - Started process (PID=520) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:31:37.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:31:37.699+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:31:37.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:31:37.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:31:37.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.044 seconds
+[2024-10-19T18:32:08.520+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:32:08.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:32:08.540+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:32:08.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:32:08.563+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:32:08.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.220 seconds
+[2024-10-19T18:32:38.910+0000] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:32:38.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:32:38.914+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:32:38.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:32:38.924+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:32:38.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.031 seconds
+[2024-10-19T18:33:09.775+0000] {processor.py:186} INFO - Started process (PID=715) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:33:09.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:33:09.779+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:33:09.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:33:09.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:33:09.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.040 seconds
+[2024-10-19T18:33:40.330+0000] {processor.py:186} INFO - Started process (PID=780) to work on /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:33:40.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/PostgresFileOperator.py for tasks to queue
+[2024-10-19T18:33:40.334+0000] {logging_mixin.py:190} INFO - [2024-10-19T18:33:40.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:33:40.344+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/PostgresFileOperator.py
+[2024-10-19T18:33:40.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/PostgresFileOperator.py took 0.031 seconds
